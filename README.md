@@ -2,6 +2,8 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22125147-1682D4.svg)](https://doi.org/10.5281/zenodo.22125147)
 
+![Where the individual record overtakes the category — IREP Crossing Point, pilot measurement](assets/labs-barkleyirep-crossing-point.png)
+
 At what amount of individual evidence does a subject's own record beat their
 reference class, and how far is that point from what classical shrinkage theory
 predicts.
