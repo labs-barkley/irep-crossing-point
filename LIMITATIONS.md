@@ -19,9 +19,15 @@ hypotheses are now frozen. Post-pilot corrections are in `AMENDMENTS.md`.
 The headline gap (empirical crossing minus analytic prediction, +0.68 seasons
 for OPS) is not a single-mechanism result. The sensitivity stage measures the
 named rivals; `out/sensitivity.json` carries the numbers, the README the
-discussion. In brief: about half the pooled gap is drift in the variance
-components between the 1954-1990 fit window and the 1991-2022 test window,
-which is a fit-window artefact, not a phenomenon; the conditioning of the
+discussion. In brief: between a third and
+two thirds of the headline +0.68 is fit-window drift, not an IREP effect: the
+per-era residuals are +0.47 for test seasons 1991-2006 and +0.28 for
+2007-2022, computed by refitting the analytic prediction inside each disjoint
+window and comparing to the empirical crossing of that same window
+(quantification sharpened by the first independent reproduction,
+[issue #1](https://github.com/labs-barkley/irep-crossing-point/issues/1));
+the drift is real variance-ratio movement, not a centering bug, since the era
+adjustment corrects location only; the conditioning of the
 reference class on age, position and playing time accounts for only a small
 part; outcome-side censoring (survivorship, below) inflates the crossing; and
 the remainder sits on the individual-estimator side, where ageing makes a long
@@ -103,6 +109,10 @@ more than it buys.
 
 ## Not yet done
 
+- The rerun on era-adjusted metrics (OPS+-style): the PED era inflates power
+  metrics specifically, and OPS is where the gap is largest. If the residual
+  survives the adjustment it means something; if it collapses, that gets
+  published too ([issue #1](https://github.com/labs-barkley/irep-crossing-point/issues/1)).
 - The exposure-weighted variance-components sensitivity.
 - A survival model for the one-in-ten at-risk subjects with zero plate
   appearances in t+1, who stay outside the outcome-floor sweep entirely.
