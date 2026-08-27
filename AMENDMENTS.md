@@ -50,6 +50,18 @@ exactly as it gates the others. `variance.py` claimed single-season players
 inform the between-player term; the mask on the next line excludes them. Both
 comments now state the actual behaviour. No number changed.
 
+## 2026-08-27 - era-drift quantification sharpened by the first independent reproduction (LIMITATIONS.md)
+
+Maxime Baelde reproduced the pilot end to end on publication day (fresh
+environment, checksum verified, exact match on both headline numbers) and
+checked the pooled "about half" attribution against the source: the per-era
+residuals are +0.47 for test seasons 1991-2006 and +0.28 for 2007-2022, so
+between a third and two thirds of the headline +0.68 is fit-window drift.
+Adopted as stated; the era adjustment corrects location only, so the swing is
+the variance ratio genuinely moving, and the instability is the finding. The
+era-adjusted-metrics rerun (OPS+-style) joins the open work. Tracked in
+issue #1, labeled external-review. No pipeline number changed.
+
 ## 2026-08-26 - sensitivity stage added (sensitivity.py)
 
 Five named rival explanations for the gap, each answered by the repo's own
