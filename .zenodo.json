@@ -1,0 +1,37 @@
+{
+  "title": "The Crossing Point: where an individual's own record beats their reference class",
+  "description": "Pilot measurement of the IREP premise on 69 seasons of the Lahman Baseball Database. At what amount of individual evidence does a subject's own record beat their reference class out of sample, and how far is that point from the classical shrinkage prediction sigma2_w/sigma2_b. Hypothesis-generating; hypotheses frozen for a confirmatory second domain (see PREREGISTRATION.md section 0). One command from raw download to figures.",
+  "creators": [
+    {
+      "name": "Remoissenet, Elodie Aishwarya P.",
+      "orcid": "0009-0004-6031-659X",
+      "affiliation": "Barkley Labs"
+    }
+  ],
+  "license": "Apache-2.0",
+  "upload_type": "software",
+  "keywords": [
+    "empirical Bayes",
+    "shrinkage",
+    "reference class",
+    "individual baseline",
+    "forecasting",
+    "Lahman Baseball Database",
+    "IREP",
+    "crossing point",
+    "pre-registration",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.21211589",
+      "resource_type": "publication-workingpaper"
+    },
+    {
+      "relation": "cites",
+      "identifier": "10.5281/zenodo.22112323",
+      "resource_type": "publication-workingpaper"
+    }
+  ]
+}
