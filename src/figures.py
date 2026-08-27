@@ -110,8 +110,8 @@ def figure1(results, path):
              "Rolling-origin validation, test seasons 1991-2022, Lahman 1954-2022. "
              "Shaded band: 95% bootstrap interval on the empirical crossing.",
              fontsize=8, color=MUTED, ha="left")
-    fig.text(0.98, 0.004, "IREP Protocol · Barkley Labs · Elodie Aishwarya P. Remoissenet · August 2026",
-             fontsize=7.5, color=MUTED, ha="right")
+    fig.text(0.02, 0.004, "IREP Protocol · Barkley Labs · Elodie Aishwarya P. Remoissenet · August 2026",
+             fontsize=7.5, color=MUTED, ha="left")
     fig.tight_layout(rect=[0, 0.055, 1, 0.94])
     fig.savefig(path, dpi=200, facecolor=SURFACE)
     plt.close(fig)
@@ -157,8 +157,8 @@ def figure2(results, analytic, path):
              "Fitted weight is estimated inside the training window only, per stratum of n. "
              "The analytic curve uses the variance components committed before the run.",
              fontsize=8, color=MUTED, ha="left")
-    fig.text(0.98, 0.004, "IREP Protocol · Barkley Labs · Elodie Aishwarya P. Remoissenet · August 2026",
-             fontsize=7.5, color=MUTED, ha="right")
+    fig.text(0.02, 0.004, "IREP Protocol · Barkley Labs · Elodie Aishwarya P. Remoissenet · August 2026",
+             fontsize=7.5, color=MUTED, ha="left")
     fig.tight_layout(rect=[0, 0.055, 1, 0.94])
     fig.savefig(path, dpi=200, facecolor=SURFACE)
     plt.close(fig)
