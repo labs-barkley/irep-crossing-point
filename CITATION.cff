@@ -15,4 +15,11 @@ keywords:
   - forecasting
   - Lahman Baseball Database
   - IREP
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22125147
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.22125148
+    description: Version DOI (v0.1.0)
 license: Apache-2.0

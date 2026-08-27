@@ -1,5 +1,7 @@
 # The Crossing Point
 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22125147-1682D4.svg)](https://doi.org/10.5281/zenodo.22125147)
+
 At what amount of individual evidence does a subject's own record beat their
 reference class, and how far is that point from what classical shrinkage theory
 predicts.
@@ -133,6 +135,10 @@ AMENDMENTS.md           every post-pilot correction, dated, with its effect
 LIMITATIONS.md          written alongside the code, not after
 out/                    panel, results, sensitivity, figures
 ```
+
+## Cite
+
+See [`CITATION.cff`](CITATION.cff). Software DOI: [10.5281/zenodo.22125148](https://doi.org/10.5281/zenodo.22125148) (this release); [10.5281/zenodo.22125147](https://doi.org/10.5281/zenodo.22125147) (all versions, always resolves to the latest).
 
 ## Data
 
