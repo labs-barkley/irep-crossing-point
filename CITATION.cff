@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this pipeline or its results, please cite it. Pilot status: hypothesis-generating; see PREREGISTRATION.md section 0."
+type: software
+title: "The Crossing Point: where an individual's own record beats their reference class"
+authors:
+  - family-names: "Remoissenet"
+    given-names: "Elodie Aishwarya P."
+    orcid: "https://orcid.org/0009-0004-6031-659X"
+    affiliation: "Barkley Labs"
+keywords:
+  - empirical Bayes
+  - shrinkage
+  - reference class
+  - individual baseline
+  - forecasting
+  - Lahman Baseball Database
+  - IREP
+license: Apache-2.0

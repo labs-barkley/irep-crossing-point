@@ -1,0 +1,282 @@
+{
+  "OPS": {
+    "era": {
+      "cumulative_fit": {
+        "1954-1980": 1.088,
+        "1954-1990": 1.212,
+        "1954-2000": 1.252,
+        "1954-2010": 1.283,
+        "1954-2022": 1.422
+      },
+      "disjoint_fit": {
+        "1954-1972": 1.032,
+        "1973-1990": 1.275,
+        "1991-2006": 1.19,
+        "2007-2022": 1.879
+      },
+      "test_windows": {
+        "1991-2006": {
+          "x": 1.662,
+          "censored": false
+        },
+        "2007-2022": {
+          "x": 2.16,
+          "censored": false
+        }
+      },
+      "era_matched_analytic_post_hoc": 1.548
+    },
+    "rc_value": {
+      "crossing_vs_grand_mean": {
+        "x": 1.798,
+        "censored": false
+      }
+    },
+    "floor": {
+      "floor_50": {
+        "n_star_analytic": 1.451,
+        "n_star_empirical": {
+          "x": 2.14,
+          "censored": false
+        },
+        "ci": [
+          1.91,
+          2.49
+        ],
+        "gap": 0.689
+      },
+      "floor_200": {
+        "n_star_analytic": 1.021,
+        "n_star_empirical": {
+          "x": 1.382,
+          "censored": false
+        },
+        "ci": [
+          1.18,
+          1.56
+        ],
+        "gap": 0.361
+      },
+      "floor_300": {
+        "n_star_analytic": 0.921,
+        "n_star_empirical": {
+          "x": 1.167,
+          "censored": false
+        },
+        "ci": [
+          1.0,
+          1.37
+        ],
+        "gap": 0.246
+      }
+    },
+    "censoring": {
+      "floor_100_shipped": {
+        "rmse": {
+          "x": 1.889,
+          "censored": false
+        },
+        "mse": {
+          "x": 1.897,
+          "censored": false
+        }
+      },
+      "outcome_floor_75": {
+        "rmse": {
+          "x": 1.866,
+          "censored": false
+        },
+        "mse": {
+          "x": 1.875,
+          "censored": false
+        }
+      },
+      "outcome_floor_50": {
+        "rmse": {
+          "x": 1.859,
+          "censored": false
+        },
+        "mse": {
+          "x": 1.871,
+          "censored": false
+        }
+      },
+      "outcome_floor_25": {
+        "rmse": {
+          "x": 1.727,
+          "censored": false
+        },
+        "mse": {
+          "x": 1.751,
+          "censored": false
+        }
+      },
+      "outcome_floor_10": {
+        "rmse": {
+          "x": 1.591,
+          "censored": false
+        },
+        "mse": {
+          "x": 1.623,
+          "censored": false
+        }
+      },
+      "outcome_floor_1": {
+        "rmse": {
+          "x": 1.444,
+          "censored": false
+        },
+        "mse": {
+          "x": 1.49,
+          "censored": false
+        }
+      }
+    },
+    "tier": {
+      "crossing_rank_tiers": {
+        "x": 1.894,
+        "censored": false
+      }
+    }
+  },
+  "KRATE": {
+    "era": {
+      "cumulative_fit": {
+        "1954-1980": 0.485,
+        "1954-1990": 0.468,
+        "1954-2000": 0.46,
+        "1954-2010": 0.44,
+        "1954-2022": 0.439
+      },
+      "disjoint_fit": {
+        "1954-1972": 0.478,
+        "1973-1990": 0.422,
+        "1991-2006": 0.38,
+        "2007-2022": 0.393
+      },
+      "test_windows": {
+        "1991-2006": {
+          "x": 1.0,
+          "censored": true
+        },
+        "2007-2022": {
+          "x": 1.0,
+          "censored": true
+        }
+      },
+      "era_matched_analytic_post_hoc": 0.406
+    },
+    "rc_value": {
+      "crossing_vs_grand_mean": {
+        "x": 1.0,
+        "censored": true
+      }
+    },
+    "floor": {
+      "floor_50": {
+        "n_star_analytic": 0.574,
+        "n_star_empirical": {
+          "x": 1.0,
+          "censored": true
+        },
+        "ci": [
+          1.0,
+          1.0
+        ],
+        "gap": null
+      },
+      "floor_200": {
+        "n_star_analytic": 0.376,
+        "n_star_empirical": {
+          "x": 1.0,
+          "censored": true
+        },
+        "ci": [
+          1.0,
+          1.0
+        ],
+        "gap": null
+      },
+      "floor_300": {
+        "n_star_analytic": 0.333,
+        "n_star_empirical": {
+          "x": 1.0,
+          "censored": true
+        },
+        "ci": [
+          1.0,
+          1.0
+        ],
+        "gap": null
+      }
+    },
+    "censoring": {
+      "floor_100_shipped": {
+        "rmse": {
+          "x": 1.0,
+          "censored": true
+        },
+        "mse": {
+          "x": 1.0,
+          "censored": true
+        }
+      },
+      "outcome_floor_75": {
+        "rmse": {
+          "x": 1.0,
+          "censored": true
+        },
+        "mse": {
+          "x": 1.0,
+          "censored": true
+        }
+      },
+      "outcome_floor_50": {
+        "rmse": {
+          "x": 1.0,
+          "censored": true
+        },
+        "mse": {
+          "x": 1.0,
+          "censored": true
+        }
+      },
+      "outcome_floor_25": {
+        "rmse": {
+          "x": 1.0,
+          "censored": true
+        },
+        "mse": {
+          "x": 1.0,
+          "censored": true
+        }
+      },
+      "outcome_floor_10": {
+        "rmse": {
+          "x": 1.0,
+          "censored": true
+        },
+        "mse": {
+          "x": 1.0,
+          "censored": true
+        }
+      },
+      "outcome_floor_1": {
+        "rmse": {
+          "x": 1.0,
+          "censored": true
+        },
+        "mse": {
+          "x": 1.0,
+          "censored": true
+        }
+      }
+    },
+    "tier": {
+      "crossing_rank_tiers": {
+        "x": 1.0,
+        "censored": true
+      }
+    }
+  }
+}
