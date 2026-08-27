@@ -106,13 +106,13 @@ def figure1(results, path):
     axes[0].legend(frameon=False, fontsize=8.5, loc="upper right", labelcolor=INK)
     fig.suptitle("Where the individual record overtakes the category",
                  fontsize=13, color=INK, x=0.02, ha="left", y=0.99, fontweight="medium")
-    fig.text(0.02, 0.024,
+    fig.text(0.02, 0.040,
              "Rolling-origin validation, test seasons 1991-2022, Lahman 1954-2022. "
              "Shaded band: 95% bootstrap interval on the empirical crossing.",
              fontsize=8, color=MUTED, ha="left")
-    fig.text(0.02, 0.004, "IREP Protocol · Barkley Labs · Elodie Aishwarya P. Remoissenet · August 2026",
+    fig.text(0.02, 0.008, "IREP Protocol · Barkley Labs · Elodie Aishwarya P. Remoissenet · August 2026",
              fontsize=7.5, color=MUTED, ha="left")
-    fig.tight_layout(rect=[0, 0.055, 1, 0.94])
+    fig.tight_layout(rect=[0, 0.075, 1, 0.94])
     fig.savefig(path, dpi=200, facecolor=SURFACE)
     plt.close(fig)
     return path
@@ -153,13 +153,13 @@ def figure2(results, analytic, path):
     axes[0].legend(frameon=False, fontsize=8.5, loc="lower right", labelcolor=INK)
     fig.suptitle("How fast the optimal weight moves from category to individual",
                  fontsize=13, color=INK, x=0.02, ha="left", y=0.99, fontweight="medium")
-    fig.text(0.02, 0.024,
+    fig.text(0.02, 0.040,
              "Fitted weight is estimated inside the training window only, per stratum of n. "
              "The analytic curve uses the variance components committed before the run.",
              fontsize=8, color=MUTED, ha="left")
-    fig.text(0.02, 0.004, "IREP Protocol · Barkley Labs · Elodie Aishwarya P. Remoissenet · August 2026",
+    fig.text(0.02, 0.008, "IREP Protocol · Barkley Labs · Elodie Aishwarya P. Remoissenet · August 2026",
              fontsize=7.5, color=MUTED, ha="left")
-    fig.tight_layout(rect=[0, 0.055, 1, 0.94])
+    fig.tight_layout(rect=[0, 0.075, 1, 0.94])
     fig.savefig(path, dpi=200, facecolor=SURFACE)
     plt.close(fig)
     return path
